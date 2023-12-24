@@ -2,6 +2,7 @@
 
 import {SetStateAction, useState} from "react";
 import ChatName from "@/components/chat_name";
+import Sidebar from "@/components/sidebar";
 
 export default function Home() {
     const [inputValue, setInputValue] = useState('');
@@ -26,6 +27,9 @@ export default function Home() {
         }
     };
     return (<>
+
+        <main className=" flex min-h-screen p-2">
+            <Sidebar></Sidebar>
             <div
                 className="flex flex-col bg-gray-50 rounded-xl text-gray-700 flex-grow shadow-xl shadow-blue-gray-900/5"
                 style={{marginLeft: '1rem'}} // Add some margin to separate left and right sidebars
@@ -73,6 +77,6 @@ export default function Home() {
                     </button>
                 </div>
             </div>
-
+        </main>
         </>)
 }
