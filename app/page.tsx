@@ -37,11 +37,12 @@ export default function Home() {
                 <ChatName></ChatName>
                 <div className="flex-grow p-4 overflow-y-auto border-gray-300">
                     {/* Display Messages */}
-                    {messages.map((message, index) => (<>
+                    {messages.map((message, index) => (
+                        <>
                             <div key={index}
-                                 className="flex items-start bg-gray-50 p-4 rounded mt-2  hover:bg-gray-100">
+                                 className="flex items-start bg-gray-50 p-4 rounded mt-2 hover:bg-gray-100">
                                 <img src={message.avatar} alt="Avatar" className="w-10 h-10 rounded-full"/>
-                                <div className="flex flex-col">
+                                <div className="flex flex-col pl-4">
                                     <span className="font-semibold">{message.sender}</span>
                                     <span>{message.content}</span>
                                 </div>
