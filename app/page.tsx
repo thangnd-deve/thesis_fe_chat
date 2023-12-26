@@ -7,10 +7,12 @@ import Sidebar from "@/components/sidebar";
 export default function Home() {
     const [inputValue, setInputValue] = useState('');
     const [messages, setMessages] = useState([{
+        id: 1,
         sender: 'John Doe',
         content: 'Hello!',
         avatar: 'https://placekitten.com/50/50'
-    }, {sender: 'Jane Smith', content: 'How are you?', avatar: 'https://placekitten.com/50/51'}, {
+    }, {id: 2,
+        sender: 'Jane Smith', content: 'How are you?', avatar: 'https://placekitten.com/50/51'}, {
         sender: 'John Doe',
         content: 'Nice to meet you!',
         avatar: 'https://placekitten.com/50/52'
@@ -39,7 +41,7 @@ export default function Home() {
                     {/* Display Messages */}
                     {messages.map((message, index) => (
                         <>
-                            <div key={index}
+                            <div key={message.id}
                                  className="flex items-start bg-gray-50 p-4 rounded mt-2 hover:bg-gray-100">
                                 <img src={message.avatar} alt="Avatar" className="w-10 h-10 rounded-full"/>
                                 <div className="flex flex-col pl-4">
