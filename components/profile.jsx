@@ -7,8 +7,7 @@ export default function Profile() {
     const [openModal, setOpenModal] = useState(false);
 
     return (
-        <>
-            <div className={'mr-0 w-1/2 grid justify-items-end'}>
+        <div className={'mr-0 w-1/2 grid justify-items-end'}>
                 <Button className={'bg-blue-500 hover:bg-blue-700 text-white font-bold rounded mr-0'}
                         onClick={() => setOpenModal(true)}>Chat Name</Button>
                 <Modal className={'w-1/2 ml-auto'} show={openModal} onClose={() => setOpenModal(false)}>
@@ -37,6 +36,5 @@ export default function Profile() {
                     </Modal.Footer>
                 </Modal>
             </div>
-        </>
     );
 }
