@@ -24,6 +24,72 @@ export default function CompanyTable() {
                         <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
                         <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
                     </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">2</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Jane Smith</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">jane.smith@example.com</td>
+                        <td className="py-4 px-6 border-b text-gray-700 border-gray-200">Inactive</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
